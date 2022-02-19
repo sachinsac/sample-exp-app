@@ -1,7 +1,6 @@
 name: sample work flow
 on:
-  push:
-    branches: [all]
+  push
 
 jobs:
   build:

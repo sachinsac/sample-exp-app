@@ -1,0 +1,10 @@
+{
+    "name": "sample-exp-app",
+    "license": "MIT",
+    "main": "index,js",
+    "scripts": {},
+    "dependencies": {
+   
+        "express": "^4.17.3"
+    }
+}

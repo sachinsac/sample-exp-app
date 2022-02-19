@@ -8,13 +8,7 @@ jobs:
   
     steps:
       - uses: actions/checkout@v2
-
-      - name: Run a one-line script
-        env:
-          test: ${{ secrets.SECRET }}
-        run: echo Hello, world! $test
-
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: npm i 
